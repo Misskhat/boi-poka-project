@@ -4,7 +4,7 @@ import { NavLink } from "react-router";
 const Header = () => {
     const link = <>
         <NavLink className={'btn btn-ghost'} to={'/'}>Home</NavLink>
-        <NavLink className={'btn btn-ghost'}>Listed Books</NavLink>
+        <NavLink className={'btn btn-ghost'} to={'/about'} >About</NavLink>
         <NavLink className={'btn btn-ghost'}>Pages to Read</NavLink>    
 
     </>
