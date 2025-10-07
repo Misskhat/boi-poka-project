@@ -20,11 +20,10 @@ const Book = ({book}) => {
                         {bookName}
                         <div className="badge badge-secondary">{rating}</div>
                     </h2>
-                    <p> {review} </p>
+                    <p> {`${review.slice(0, 300)}.............See more`} </p>
                     <div className="card-actions justify-between py-3 items-center">
                         <div className="border rounded px-2">Total Pages: {totalPages}</div>
                         <div className="flex border rounded px-2">
-                            {" "}
                             <User></User> Author: {author.slice(0, 10)}
                         </div>
                     </div>
