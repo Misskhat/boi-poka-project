@@ -3,7 +3,7 @@ import React, {use} from "react";
 import {Link} from "react-router";
 
 const Book = ({book}) => {
-    console.log(book);
+    // console.log(book);
     const {bookId, bookName, author, category, image, publisher, rating, review, totalPages, yeaOfPublishing, tags} = book;
     // const bookData = use(booksPromise)
     // console.log(bookData);
